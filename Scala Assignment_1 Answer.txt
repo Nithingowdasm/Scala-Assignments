@@ -1,0 +1,48 @@
+a. Error
+
+b.error : Reassignment is not possible as we are using val while creating varaible
+
+c.False
+
+d.True
+
+e.frank
+
+f.float
+
+g.True
+
+h.44
+
+i.katy perry
+
+j.sublime
+
+k.it is true
+
+2 for (i<- 2 to 10 by 2) println(i)
+
+3.infinite loop
+
+4.for (i <- 1 to 100 if (i%2 != 0 && i%3 !=0 && i%5 !=0)) println(i)
+
+5.for ( i <-1 to 3 ; j <- 1 to 3; k<- 1 to 3) println(s"$i$j$k")
+
+6.
+
+var k:String="  ";
+for (i <- 8 to 2 by -2) {
+for(j <- 1 to i ){
+print (" *") 
+}
+print(s"\n$k")
+k=k+"  "
+}
+
+
+
+
+
+
+
+
