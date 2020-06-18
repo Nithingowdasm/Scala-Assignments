@@ -1,0 +1,41 @@
+1a. 15
+
+1b.99
+
+1c.bob loblaw
+
+1d. howdy!
+
+1e.Let's play with cats and have fun
+
+2.
+Define a function named "toUpper" which accepts a String as input parameter that is then
+formatted to upper case as output.
+
+def toUpper(s:String) = { s.toUpperCase } // By using simple function;
+
+Define another function named "toLower" which accepts a String as input parameter and
+formats the input to lower case as output.
+
+def toLower(s:String) =s.toLowerCase // By using simple function;
+
+Define another function named "formatNames" which also has an input String called
+"name". This function however has another parameter which accepts functions with an
+input of type String and also outputs a String. This particular function will be used to apply
+the given format to the "name" input.
+You can use the test inputs for say, "Scala", "Spark", and "BigData", and make sure that the
+output is as shown below.
+
+def formatNames (name:String,f:String=>String) = {
+println(f(name))
+}
+val lt=List("Scala","Spark","BigData")
+for (i <- lt) {
+if (i !="Spark") {formatNames(i,toUpper) 
+}else {
+formatNames(i,toLower) 
+}
+}
+
+formatNames("spark",toLower)
+formatNames("BIGDATA",toUpper)
